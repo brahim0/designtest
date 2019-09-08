@@ -32,19 +32,19 @@ export default class Header extends Component {
           </nav>
           <div >
             <ul className={this.state.isOpen ? "nav-links show-nav ": "nav-links"}>
-                    <li className="nav-item">
-                      <Link className="nav-link"  to="/">Home</Link>
+                    <li className="nav-item" onClick={this.handleToggle} >
+                      <Link className="nav-link"  onClick={this.handleToggle} to="/">Home</Link>
                     </li>
-                    <li className="nav-item">
-                    <Link className="nav-link"  to="/resume">Resume</Link>
+                    <li className="nav-item" onClick={this.handleToggle} >
+                    <Link className="nav-link" onClick={this.handleToggle}  to="/resume">Resume</Link>
 
                     </li>
-                    <li className="nav-item">
-                    <Link className="nav-link" to="/about">About</Link>
+                    <li className="nav-item"  onClick={this.handleToggle} >
+                    <Link className="nav-link"  onClick={this.handleToggle} to="/about">About</Link>
 
                     </li>
-                    <li className="nav-item">
-                    <Link className="nav-link" to="/contact">Contact</Link>
+                    <li className="nav-item"  onClick={this.handleToggle} >
+                    <Link className="nav-link" onClick={this.handleToggle}  to="/contact">Contact</Link>
 
                     </li>
 
