@@ -1,0 +1,180 @@
+:root {
+  --primaryColor: #af9a7d;
+  --mainWhite: #fff;
+  --offWhite: #f7f7f7;
+  --mainBlack: #222;
+  --mainGrey: #ececec;
+  --darkGrey: #cfcfcf;
+  --mainTransition: all 0.3s linear;
+  --mainSpacing: 3px;
+  --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+  --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.logo{
+  width:3.5rem;
+  height:2.5rem;
+}
+.logo:hover{
+  width:4rem;
+  height:3rem;
+  transition: all 0.7s linear; 
+}
+.main-menu{
+  visibility: hidden;
+  
+}
+
+.nav-links {
+  margin: -1.1rem;
+  height: 0;
+  overflow: hidden;
+  transition: var(--mainTransition);
+  list-style-type: none;
+  background-color: #141A46;
+}
+.nav-link{
+color: white;
+}
+.nav-link:hover{
+  color: #EC8B5E;
+}
+.show-nav {
+  height: 11rem;
+}
+.nav{
+  padding: 0% !important;
+  background-color: #141A46;
+}
+.header{
+  position: relative;
+}
+
+.img-photo{
+  height:13rem;
+  width: 13rem;
+}
+.img-photo-reverse{
+  height:13rem;
+  width: 16rem;
+ 
+}
+.reverse{
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+
+}
+.name{
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+  color: aliceblue;
+}
+.text-grand{
+  font-size: 3rem;
+}
+.text-moin-grand{
+  font-size: 1.5rem;
+}
+.first-title{
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.2rem;
+  color: aliceblue;
+}
+.first-name{
+color: aliceblue;
+}
+.last-name{
+color: #BDB76B;
+}
+.last-name-second-color{
+  color: #141A46;
+  }
+.title-of-me{
+  font-family: 'Dancing Script', cursive;
+
+  color:aliceblue;
+  font-size: 2.2rem;
+}
+
+
+.main > div {
+  cursor: pointer;
+  position: absolute;
+  margin-top:1.2rem;
+  width: 100%;
+  min-height: calc(100vh - 36px);
+  font-family: 'Shadows Into Light', cursive;
+  will-change: transform, opacity;
+}
+.sidebar {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 280px;
+  background: white;
+  padding: 20px;
+  font-size: 15px;
+}
+
+.sidebar-toggle {
+  position: absolute;
+  margin: 20px;
+  color: #a0a0a0;
+  z-index: 100;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+.resume{
+  background: #659EBC;
+  position: absolute;
+  margin-top:1.2rem;
+  width: 100%;
+  min-height: calc(100vh - 36px);
+  font-family: 'Shadows Into Light', cursive;
+  will-change: transform, opacity;
+  color:white;
+}
+.mauve{
+  color: #141A46;
+}
+.font-lexend-deca{
+  font-family: 'Lexend Deca', sans-serif;
+
+}
+textarea {
+  resize: none !important;
+}
+.btn .btn-light{
+  color: #141A46;
+}
+.social{
+  text-align: center;
+  font-size:1.1rem;
+  height:4.3rem;
+width:4.3rem;
+  
+}
+.social > a{
+  color: #fff;
+}
+.social:hover{
+background: #f7f7f7;
+color: #141A46;
+margin-left: 30%;
+margin-right: 20%;
+margin-bottom: 20%;
+padding-top: .5rem;;
+padding-bottom: auto;
+border-radius: 50%;
+font-size:1.7rem;
+text-align: center;
+border:.1rem solid #EC8B5E;
+position: relative;
+top:-15%;
+left:-30%;
+}
+.social >a:hover{
+  color: #141A46;
+}
