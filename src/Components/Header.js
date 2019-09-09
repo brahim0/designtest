@@ -20,8 +20,7 @@ export default class Header extends Component {
         return (
             <>
             <nav className="nav  mb-3 navbar-expand-lg  header">
-            
-            <a className="mr-auto p-2 "><img src={logo} className="logo" /></a>
+            <Link className="mr-auto p-2 "   to="/"><img src={logo} className="logo" /></Link>
             <button className="navbar-toggler d-flex justify-content-end mr-2 my-2" type="button" onClick={this.handleToggle} data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style={{ color:'white' }}>
             {this.state.isOpen ? <IoIosCloseCircle /> : <FaAlignRight />}
             </button>
